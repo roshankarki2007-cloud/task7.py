@@ -65,8 +65,8 @@ else:
 
 
 banned_items = {"scissors", "knife", "lighter"}
-weight = float(input())
-item = input().lower()
+weight = float(input("Enter weight: "))
+item = input("Enter item: ").lower()
 
 if weight <= 7 and item not in banned_items:
     print("Bag allowed")
@@ -193,9 +193,9 @@ else:
     valid_courses = {"python", "robotics", "java"}
 hs_grades = [9, 10, 11, 12]
 
-name = input()
-course = input()
-grade = int(input())
+name = input("Enter student name: ")
+course = input("Enter course: ")
+grade = int(input("Enter grade: "))
 
 student_records = {
     "name": name,
