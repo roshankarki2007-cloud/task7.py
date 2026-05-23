@@ -25,6 +25,18 @@ else:
 
   #question 3
 
+  class_list = ["ram", "sita", "laxman"]
+
+new_student = input("Enter the name of the new student: ")
+
+if new_student in class_list:
+    print(f"{new_student} is already present in the list.")
+else:
+    class_list.append(new_student)
+    print(f"Confirmation: {new_student} has been successfully added.")
+
+print("Updated class list:", class_list)
+
 
 #question 4
 
